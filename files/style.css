@@ -96,6 +96,9 @@ img{
     vertical-align: middle;
 }
 
+section{
+    font-size: 100%;
+}
 
 #fondo{
     background-color: #008E3B;
