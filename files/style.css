@@ -27,7 +27,6 @@ h2, div{
 #verde{
     background-color: #008E3B;
     margin: 10px;
-    border-radius: 20px;
     width: 300px;
     padding-bottom: 12px;
 }
@@ -68,7 +67,6 @@ img{
 #negro{
     background-color: #111;
     margin: 10px;
-    border-radius: 20px;
     width: 300px;
     padding-bottom: 12px;
 }
