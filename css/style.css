@@ -26,10 +26,6 @@ h2, div{
 
 #verde{
     background-color: #008E3B;
-    background-image: url(../img/Asset\ 2.png);
-    background-position: 14px 411px;
-    background-repeat: no-repeat;
-    background-size: 22px;
     margin: 10px;
     width: 300px;
     padding-bottom: 12px;
@@ -70,10 +66,6 @@ img{
 
 #negro{
     background-color: #111;
-    background-image: url(../img/Asset\ 1.png);
-    background-position: 14px 411px;
-    background-repeat: no-repeat;
-    background-size: 22px;
     margin: 10px;
     width: 300px;
     padding-bottom: 12px;
