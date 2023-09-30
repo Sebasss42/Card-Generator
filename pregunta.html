@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+ 
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Jesulink contra la Humanidad</title>
+
+    <!-- Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/filesaver.js" type="text/javascript"></script>
+    <script src="js/html2canvas.js" type="text/javascript"></script>    
+
+    <script type="text/javascript">
+      $(function() { 
+          $("#crearimagen").click(function() { 
+              html2canvas($("#negro"), {
+                  onrendered: function(canvas) {
+                      theCanvas = canvas;
+                      document.body.appendChild(canvas);
+
+                      /*
+                      canvas.toBlob(function(blob) {
+                        saveAs(blob, "Dashboard.png"); 
+                      });
+                      */
+                  }
+              });
+          });
+      });
+    </script>
+
+
+</head>
+<body id="fondo">
+
+	<div class="container">
+
+    <h1>Generador de Cartas para Jesulink contra la humanidad</h1>   
+
+    <div id="negro">
+      <textarea type="text" maxlength="78" id="text-input-text" placeholder="Escribe algo aquí"></textarea>
+      <img src="./img/Asset 1.png" width="20" height="22.5"><!--
+      --><p>Jesulink contra la humanidad</p>
+    </div>
+    <br>
+      <button id="crearimagen" class="form-control">Crear Imagen</button>
+
+      <div class="row">
+        <div class="col-md-12" id="img-out">
+          <span style="font-size:11px;">Click derecho para Guardar la imagen.</span>        
+        </div>
+      </div>     
+        
+
+	</div>  
+
+</body>
+</html>
